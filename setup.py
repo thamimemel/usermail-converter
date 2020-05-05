@@ -4,10 +4,10 @@ from os import path
 with open(path.join(path.abspath(path.dirname(__file__)), 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
-version = "1.0"
+version = "1.1"
 setup(
-  name = 'usermail-converter',
-  packages = ['usermail-converter'],
+  name = 'usermail_converter',
+  packages = ['usermail_converter'],
   version = version,
   license='GPLv3',
   description = 'A Python Cross Platform GUI App Tool to Convert Between Emails and Usernames',
@@ -40,7 +40,7 @@ setup(
   ],
   entry_points={
     'console_scripts': [
-        'usermail_converter=usermail_converter.__main__:main',
+        'usermail-converter=usermail_converter.__main__:main',
         ],
     },
   package_data={'usermail_converter': ['icons/*']},
