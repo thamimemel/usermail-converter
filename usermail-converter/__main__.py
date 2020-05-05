@@ -17,7 +17,7 @@ class App(QMainWindow, Ui_MainWindow):
     #Manages the Watchers/Listners for Different Buttons and Events Triggers
     def initWatchers(self):
         # Placeholders for variables
-        self.version = "1.0.0"
+        self.version = "1.0"
         self.radioChecked = False
         self.radioBtns = [self.radioE2U, self.radioEP2UP, self.radioU2E, self.radioUP2EP]
 

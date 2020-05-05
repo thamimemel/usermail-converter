@@ -13,10 +13,10 @@ A simple GUI tool made with python and PyQt5, used to convert between emails and
 
 ## Installation
 ### Pypi (preferred)
-	$ pip install usermail_converter
+	$ pip install -U usermail-converter
 to launch the app after installation use the command 
 
-    $ usermail_converter
+    $ usermail-converter
 
 ### Windows Executable
 Binaries for windows are available under [releases](https://github.com/ThamiMemel/UserMail_Converter/releases)

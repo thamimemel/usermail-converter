@@ -4,10 +4,11 @@ from os import path
 with open(path.join(path.abspath(path.dirname(__file__)), 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
+version = "1.0"
 setup(
   name = 'usermail-converter',
   packages = ['usermail-converter'],
-  version = '1.0.0',
+  version = version,
   license='GPLv3',
   description = 'A Python Cross Platform GUI App Tool to Convert Between Emails and Usernames',
   long_description=long_description,
@@ -15,7 +16,7 @@ setup(
   author = 'Thami Memel',
   author_email = 'memelthami@gmail.com',
   url = 'https://github.com/ThamiMemel/UserMail_Converter',
-  download_url = 'https://github.com/ThamiMemel/usermail-converter/archive/1.0.0.tar.gz',
+  download_url = f'https://github.com/ThamiMemel/usermail-converter/archive/{version}.tar.gz',
   keywords = ['username', 'email', 'mail', 'converter', "combo"],  
   install_requires=[ 
           'pyqt5==5.14.2',
