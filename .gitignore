@@ -1,0 +1,11 @@
+# Build files
+venv
+build
+dist
+usermail_converter.egg-info
+
+# Cython generated files
+__pycache__
+
+#Pylint
+.pylint_cache/*
