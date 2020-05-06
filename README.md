@@ -17,7 +17,7 @@ A simple GUI tool made with python and PyQt5, used to convert between emails and
 Binaries for windows are available under [releases](https://github.com/ThamiMemel/UserMail_Converter/releases)  
 ***Notice** : Zip version is prefered over portable veriosn since the portable one has a slow startup.*
 ### Linux Executables
-***Notice** : Pypi or running from source are prefered for Linux.*
+***Notice** : Pypi or running from source are prefered for Linux.*  
 Binaries for Linux  are available under [releases](https://github.com/ThamiMemel/UserMail_Converter/releases)
 ### Pypi
 	$ pip install -U usermail-converter
