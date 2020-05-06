@@ -10,10 +10,6 @@ A simple GUI tool made with python and PyQt5, used to convert between emails and
 - [x] It works and it's not a virus ;D
 	### Todo
 	i don't know ! but feel free to suggest anything you want to be included.
-## Requirements
-Python >= 3.5  
-PyQt5 >= 5.14.2  
-PyAutoGUI >= 0.9.50  
 
 ## Installation
 
