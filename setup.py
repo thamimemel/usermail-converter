@@ -19,7 +19,7 @@ setup(
   download_url = f'https://github.com/ThamiMemel/usermail-converter/archive/{version}.tar.gz',
   keywords = ['username', 'email', 'mail', 'converter', "combo"],  
   install_requires=[ 
-          'pyqt5==5.14.2',
+          'pyqt5==5.15.4',
           'PyAutoGUI==0.9.50',
       ],
   classifiers=[
