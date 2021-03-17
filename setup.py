@@ -20,7 +20,7 @@ setup(
   keywords = ['username', 'email', 'mail', 'converter', "combo"],  
   install_requires=[ 
           'pyqt5==5.14.2',
-          'PyAutoGUI==0.9.50',
+          'PyAutoGUI==0.9.52',
       ],
   classifiers=[
     'Development Status :: 5 - Production/Stable', #"3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
